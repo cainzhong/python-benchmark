@@ -1,7 +1,7 @@
 pip3 install --no-cache-dir --default-timeout=1000 -r ./requirements.txt
 
 curl --location --request POST '
-https://ray-server.sigma-cd3.aws.itsma-ng.net/opus-mt-zh-en'
+https://xxx.com/opus-mt-zh-en'
 \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -12,7 +12,7 @@ https://ray-server.sigma-cd3.aws.itsma-ng.net/opus-mt-zh-en'
 }'
 
 curl --location --request POST '
-https://ray-server.sigma-cd3.aws.itsma-ng.net/opus-mt-en-zh'
+https://xxx.com/opus-mt-en-zh'
 \
 --header 'Content-Type: application/json' \
 --data-raw '{
